@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+!/usr/bin/python3
 
 
 def uppercase(str):
@@ -7,4 +7,3 @@ def uppercase(str):
             c = chr(ord(c)-ord('a')+ord('A'))
         print("{}".format(c), end='')
     print()
-    
