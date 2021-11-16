@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-for c in range(ord('a'), ord('z')+1):
-    print('{}'.format(chr(c)), end='')"\n"
+for i in range(97, 123):
+    print("{:c}".format(i), end='')
