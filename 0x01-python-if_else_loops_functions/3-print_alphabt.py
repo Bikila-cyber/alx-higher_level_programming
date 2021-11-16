@@ -1,6 +1,5 @@
 #!/usr/bin/python3
-
-for i in range(97, 123):
-    if i == 113 or i == 101:
+for char in range(97, 123):
+    if char == 101 or char == 113:
         continue
-    print("{:c}".format(i), end="
+    print('{:c}'.format(char), end="")
