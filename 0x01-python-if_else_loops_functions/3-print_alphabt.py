@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-for c in range(ord('a'), ord('z')+1):
-    if c is not ord('e') and c is not ord('q'):
-        print('{}'.format(chr(c)), end='')
-        
+
+for i in range(97, 123):
+    if i == 113 or i == 101:
+        continue
+    print("{:c}".format(i), end="
