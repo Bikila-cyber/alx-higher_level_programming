@@ -20,4 +20,3 @@ if __name__ == "__main__":
     fetch_objects = session.query(State).get(2)
     fetch_objects.name = "New Mexico"
     session.commit()
-    
