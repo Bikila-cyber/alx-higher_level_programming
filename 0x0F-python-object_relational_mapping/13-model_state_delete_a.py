@@ -19,4 +19,3 @@ if __name__ == "__main__":
     session.query(State).filter(State.name.contains('a')).\
         delete(synchronize_session=False)
     session.commit()
-    
