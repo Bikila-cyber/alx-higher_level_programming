@@ -22,4 +22,3 @@ ORDER BY id ASC".format(
         print(row)
     cur.close()
     conn.close()
-    
